@@ -1,0 +1,60 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+  background: transparent;
+  transition: 0.3s;
+}
+
+.navbar.scrolled {
+  background: #0d1b2a;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #1b263b, #415a77);
+  color: white;
+}
+
+.typing-text {
+  color: gold;
+  font-weight: bold;
+  min-height: 40px;
+}
+
+.btn-glow {
+  background: gold;
+  color: black;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn-glow:hover {
+  background: orange;
+  box-shadow: 0 0 15px gold;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.8s;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
